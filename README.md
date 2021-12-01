@@ -139,9 +139,11 @@ Use your favorite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers)
 ```bash
 $ yay -S nohang-git
 $ sudo systemctl enable --now nohang-desktop.service
+$ sudo systemctl start nohang
 ```
 
-#### To install on Ubuntu 20.04/20.10
+#### To install on Ubuntu 20.04/20.10$ sudo systemctl start nohang-desktop.service
+
 
 To install from [PPA](https://launchpad.net/~oibaf/+archive/ubuntu/test/):
 ```bash
